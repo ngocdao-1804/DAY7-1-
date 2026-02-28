@@ -1,8 +1,17 @@
+
+
 //bai2
 const friends = [`Linh`,`Thư `,` Phương`];
 friends.push(`Đào`);
-console.log(friends.length);
-console.log(`người bạn đầu tiên ${friends[0]} `);
+friends.unshift(`Long Vương`);
+friends.pop();
+// friends.splice(1,1,`Link`);
+for (let i = 0; i < friends.length; i++) {
+    console.log(friends[i]);
+}
+
+// console.log(friends.length);
+// console.log(`người bạn đầu tiên ${friends[0]} `);
 
 //bai1/
 // let carts = [`thanh long`,` bảng vẽ `, ` phấn mắt`, `eyeliner`, ` tăm nước`, `chỉ nha khoa `, ` thuốc đỏ`, ` bông tẩy trang`];
