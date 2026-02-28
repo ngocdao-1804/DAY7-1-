@@ -5,7 +5,7 @@ const friends = [`Linh`,`Thư `,` Phương`];
 friends.push(`Đào`);
 friends.unshift(`Long Vương`);
 friends.pop();
-// friends.splice(1,1,`Link`);
+friends.splice(1,1,`Link`);
 for (let i = 0; i < friends.length; i++) {
     console.log(friends[i]);
 }
