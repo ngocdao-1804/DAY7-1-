@@ -1,7 +1,7 @@
 
 
 //bai2
-const friends = [`Linh`,`Thư `,` Phương`];
+const friends = [`Linh`,`Thư `,`Phương`];
 friends.push(`Đào`);
 friends.unshift(`Long Vương`);
 friends.pop();
