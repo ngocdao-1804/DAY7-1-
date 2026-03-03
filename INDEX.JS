@@ -1,14 +1,29 @@
+// baitapvenha
+const memoryUsages =[32, 45, 28, 50, 64, 20];
+const limit = (a) => {
+    let i=0;
+    let countValidCases = 0;
+    while (i < memoryUsages.length) {
+        if (memoryUsages[i]<=a){
+            countValidCases++;
+        }
+        i++;
+    }
+    return countValidCases;
+}
+const result = limit(40);
+console.log(`có ${result} test case dưới hoặc bằng mức giới hạn bộ nhớ`);
 
 
 //bai2
-const friends = [`Linh`,`Thư `,`Phương`];
-friends.push(`Đào`);
-friends.unshift(`Long Vương`);
-friends.pop();
-friends.splice(1,1,`Link`);
-for (let i = 0; i < friends.length; i++) {
-    console.log(friends[i]);
-}
+// const friends = [`Linh`,`Thư `,`Phương`];
+// friends.push(`Đào`);
+// friends.unshift(`Long Vương`);
+// friends.pop();
+// friends.splice(1,1,`Link`);
+// for (let i = 0; i < friends.length; i++) {
+//     console.log(friends[i]);
+// }
 
 // console.log(friends.length);
 // console.log(`người bạn đầu tiên ${friends[0]} `);
